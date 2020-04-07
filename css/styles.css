@@ -28,21 +28,20 @@ body {
   text-align: center;
   font-size: 2em;
   opacity: 95%;
-  padding: 2px;
+  padding: 1px;
   border-radius: 30px;
   list-style: none;
 }
 
 
-ul a {
+.navs ul a {
   color: rgb(252,98,3);
   display: flex;
-  justify-content: space-around;
-  flex-direction: row;
+  justify-content: space-evenly;
   transition:0.6s ease;
 }
 
-ul a:hover{
+.navs ul a:hover{
   transition: 0.6s ease;
   font-size: 120%;
   background-color: rgb(56,46,36);
@@ -54,4 +53,11 @@ ul a:hover{
 
 ul li {
   display: block;
+}
+
+img {
+  background-color: rgb(230,46,0);
+  border: solid 2px rgb(0,0,0);
+  border-radius: 30px;
+  padding: 10px;
 }
